@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/deal_details_scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="#3E3E3E"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    
+        <!-- Full title and large picture -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dip"
+            >
+            
+            <!-- Left Edge -->
+            <View
+                android:background="@drawable/deal_block_left_edge"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                />
+            
+            <!-- Content Section -->
+            <LinearLayout
+                android:id="@+id/deal_block_title_content"
+                android:orientation="vertical"
+                android:background="#AA0000"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="12dip"
+                >
+                
+                <TextView
+                    android:id="@+id/deal_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deal_title_default_text"
+                    />
+
+                <ImageView
+                    android:id="@+id/large_deal_image"
+                    android:contentDescription="@string/img_desc"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    />
+                
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        <!-- Price + Value/Discount/$ Saved + "Buy Now!"-->
+        
+        
+        <!-- Below the Proverbial Fold -->
+        
+        
+        <!-- Long Description (html formatted) -->
+        
+        
+        <!-- "Goto Groupon" button -->
+
+    </LinearLayout>
+
+</ScrollView>
